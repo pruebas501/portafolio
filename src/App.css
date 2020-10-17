@@ -6,6 +6,18 @@
   position: relative;
   padding-top: 30px;
   box-sizing: border-box;
+  animation-name: fondo;
+  animation-timing-function: linear;
+  animation-duration: 4s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes fondo {
+  0% {background: linear-gradient(45deg, #22046b, #e14e42);}
+  25% {background: linear-gradient(45deg, #250479, #df493b);}
+  50% {background: linear-gradient(45deg, #2e0594, #d62717);}
+  75% {background: linear-gradient(45deg, #250479, #df493b);}
+  100% {background: linear-gradient(45deg, #22046b, #e14e42);}
 }
 
 .navbar {

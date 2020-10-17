@@ -8,7 +8,8 @@ import './App.css';
 import star from './images/star.svg';
 import HeaderComponent from './header/header.component';
 
-import Contact from './contact/contact.component.js';
+import Contact from './contact/contact.component';
+import About from './about/about.component';
 
 function App() {
   return (
@@ -52,9 +53,6 @@ function App() {
   );
 }
 
-function About() {
-  return <h2>About</h2>
-}
 function Curriculum() {
   return <h2>Curriculum</h2>
 }
