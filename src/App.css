@@ -1,23 +1,31 @@
 .App {
   width: 100%;
   min-height: 100vh;
-  background: linear-gradient(45deg, #22046b, #e14e42);
+  /* background: linear-gradient(45deg, #22046b, #e14e42); */
   color: #fff;
   position: relative;
   padding-top: 30px;
   box-sizing: border-box;
-  animation-name: fondo;
-  animation-timing-function: linear;
-  animation-duration: 4s;
-  animation-iteration-count: infinite;
+
+  /* background: linear-gradient(45deg, #040245, #e14e42);
+  background-size: 190% 100%;
+  animation: AnimationName 10s ease infinite; */
+  background: radial-gradient(circle at 100% -250%, #e14e42, #22046b);
+  background-size: 150% 100%;
+  animation: AnimationName2 10s ease infinite;
 }
 
-@keyframes fondo {
-  0% {background: linear-gradient(45deg, #22046b, #e14e42);}
-  25% {background: linear-gradient(45deg, #250479, #df493b);}
-  50% {background: linear-gradient(45deg, #2e0594, #d62717);}
-  75% {background: linear-gradient(45deg, #250479, #df493b);}
-  100% {background: linear-gradient(45deg, #22046b, #e14e42);}
+
+@keyframes AnimationName {
+  0%{background-position:0% 0%}
+  50%{background-position:30% 0%}
+  100%{background-position:0% 0%}
+}
+
+@keyframes AnimationName2 {
+  0%{background-position:0% 0%}
+  50%{background-position:50% 0%}
+  100%{background-position:0% 0%}
 }
 
 .navbar {
