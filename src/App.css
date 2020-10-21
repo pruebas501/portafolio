@@ -10,9 +10,9 @@
   /* background: linear-gradient(45deg, #040245, #e14e42);
   background-size: 190% 100%;
   animation: AnimationName 10s ease infinite; */
-  background: radial-gradient(circle at 100% -250%, #e14e42, #22046b);
+  background: radial-gradient(circle at 80% 115%, #ec7c12, #22046b);
   background-size: 150% 100%;
-  animation: AnimationName2 10s ease infinite;
+  animation: AnimationName 14s ease infinite;
 }
 
 
@@ -26,6 +26,10 @@
   0%{background-position:0% 0%}
   50%{background-position:50% 0%}
   100%{background-position:0% 0%}
+}
+
+@keyframes AnimationName3 {
+  to {background-position:bottom right}
 }
 
 .navbar {
